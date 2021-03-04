@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robin Zou&#39;s blog</title>
+    <link>/</link>
+    <description>Recent content on Robin Zou&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USB故障</title>
+      <link>/posts/usb_error/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/usb_error/</guid>
+      <description>我的电脑有三个USB插口，左边一个，右边两个 有一天，右边靠近屏幕的那个插口无法识别到我的无线鼠标了，我当时没太在意，毕竟还有两个可以用，然后大概是这学</description>
+    </item>
+    
+    <item>
+      <title>新的开始</title>
+      <link>/posts/first_blog/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first_blog/</guid>
+      <description>欢迎来到肉饼粥的第一篇博客。了解我的人可能都会很意外，因为我从小到大都没有写博客或者记日记的习惯，就连QQ空间和朋友圈的文案也懒得画太多心思去构思。 我</description>
+    </item>
+    
+    <item>
+      <title>肉饼粥</title>
+      <link>/about/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Welcome to Robin Zou&amp;rsquo;s blog!</description>
+    </item>
+    
+  </channel>
+</rss>
