@@ -8,7 +8,16 @@
     <language>zh</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>论文阅读</title>
+      <link>/posts/adversarial_learning0306/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/adversarial_learning0306/</guid>
+      <description>Query-effificient Black-box Adversarial Examples 先导知识 KL散度 通过一个分布$q(x)$去近似另一个分布$p(x)$，KL散度计算如下 $$ D_{KL}(p||q)=\int_{-\infty}^{+\infty}p(x)\log\frac{p(x)}{q(x)}dx $$ 可以用吉布斯不等式(Gibbs&#39; inequalit</description>
+    </item>
+    
     <item>
       <title>USB故障</title>
       <link>/posts/usb_error/</link>

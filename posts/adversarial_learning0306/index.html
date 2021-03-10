@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width">
 
 
-<title>Robin Zou&#39;s blog</title>
+<title>论文阅读 | Robin Zou&#39;s blog</title>
 <link rel="stylesheet" href="/css/eureka.min.css">
 <script defer src="/js/eureka.min.js"></script>
 
@@ -50,26 +50,58 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu1778d8ac613885da102bc6f7e14e702b_44766_180x180_fill_q75_box_center.jpg">
 
 <meta name="description"
-  content="Eureka is a elegant and powerful theme for Hugo.">
+  content="Query-effificient Black-box Adversarial Examples论文阅读">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Posts",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"论文阅读",
+      "item":"/posts/adversarial_learning0306/"}]
+}
+</script>
 
 
 
-<meta property="og:title" content="Robin Zou&#39;s blog" />
-<meta property="og:type" content="website" />
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/adversarial_learning0306/"
+    },
+    "headline": "论文阅读 | Robin Zou\u0027s blog","datePublished": "2021-03-06T00:00:00+00:00",
+    "dateModified": "2021-03-10T00:00:00+00:00",
+    "wordCount":  890 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Robin Zou",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.jpg"
+        }
+        },
+    "description": "Query-effificient Black-box Adversarial Examples论文阅读"
+}
+</script><meta property="og:title" content="论文阅读 | Robin Zou&#39;s blog" />
+<meta property="og:type" content="article" />
 
 
 <meta property="og:image" content="/images/icon.jpg">
 
 
-<meta property="og:url" content="/" />
+<meta property="og:url" content="/posts/adversarial_learning0306/" />
 
 
 
-
-
-<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
-
-
+<meta property="og:description" content="Query-effificient Black-box Adversarial Examples论文阅读" />
 
 
 
@@ -85,14 +117,17 @@
 
 
 
-<meta property="og:updated_time" content="2021-03-06T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-03-06T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2021-03-10T00:00:00&#43;00:00" />
 
 
 
-<meta property="article:section" content="" />
+<meta property="article:section" content="posts" />
 
 
-<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Robin Zou's blog" />
+
 
 <body class="flex flex-col min-h-screen">
   <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
@@ -112,7 +147,7 @@
         class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/about/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">About</a>
-            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Posts</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Posts</a>
             <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Docs</a>
         </div>
 
@@ -160,46 +195,15 @@
 </script></div>
   </header>
   <main class="flex-grow pt-16">
-  
-  
-  
-    
-    <div class="bg-secondary-bg pl-scrollbar">
-      <div class="max-w-screen-xl mx-auto">
-        <div class="grid grid-cols-9 grid-rows-5 h-(screen-16)">
-        
-          <div class="col-start-3 col-span-5 row-start-2 row-span-3 z-20">
-            <div class="flex flex-col items-center justify-center min-h-full">
-              <div class="bg-white bg-opacity-75 shadow-2xl -m-12 p-12">
-                <span class="font-bold text-black text-opacity-75 text-2xl md:text-3xl"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="pl-scrollbar">
-      <div class="max-w-screen-xl mx-auto">
-        <div class="pt-12 md:px-4 xl:px-8">
-<div class="mx-4 xl:mx-16">
-    <div class="flex flex-row items-center justify-between">
-        <h2 class=" font-bold text-3xl my-4">Recent</h2>
-    </div>
-    <div class="masonry grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-        
-        <div class="item">
-            <div class="grid-content">
-                <div class="bg-secondary-bg rounded overflow-hidden border hover:shadow-lg transition ease-in-out duration-200">
-  
-  
-  <div class="px-6 pt-6">
-    <div class="font-bold text-xl text-primary-text mb-2">
-      <a href="/posts/adversarial_learning0306/" class="hover:text-eureka">论文阅读</a>
-    </div>
-    <div class="">Query-effificient Black-box Adversarial Examples 先导知识 KL散度 通过一个分布$q(x)$去近似另一个分布$p(x)$，KL散度计算如下 $$ D_{KL}(p||q)=\int_{-\infty}^{&#43;\infty}p(x)\log\frac{p(x)}{q(x)}dx $$ 可以用吉布斯不等式(Gibbs&#39; inequalit</div>
-  </div>
-  <div class="px-6 pb-2">
-    <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">论文阅读</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
     <div class="mr-6 my-2">
         <i class="fas fa-calendar mr-1"></i>
         <span>2021-03-06</span>
@@ -213,87 +217,104 @@
 
     
 </div>
-  </div>
-</div>
-            </div>
+        
+        
+        
+
+        <div class="content">
+            <h1 id="query-effificient-black-box-adversarial-examples">Query-effificient Black-box Adversarial Examples</h1>
+<h2 id="先导知识">先导知识</h2>
+<h3 id="kl散度">KL散度</h3>
+<p>通过一个分布$q(x)$去近似另一个分布$p(x)$，KL散度计算如下
+$$
+D_{KL}(p||q)=\int_{-\infty}^{+\infty}p(x)\log\frac{p(x)}{q(x)}dx
+$$
+可以用吉布斯不等式(Gibbs' inequality)证明KL散度&gt;=0，KL散度越小，说明两个分布越接近，*q(x)*的拟合效果越好</p>
+<h3 id="投影梯度下降">投影梯度下降</h3>
+<p>一种解决带约束优化问题的方法，简单来说就是把梯度下降得到的点投影到满足约束条件的区域中。<img src="../../imgs/0306/PGD.png" alt="1"></p>
+<h1 id="正文">正文</h1>
+<p>生成对抗样本的一般思想史，在满足约束（扰动半径小于某个epsilon）的情况下，找到对抗样本或者最大化损失。</p>
+<p>经典的FGSM方法通过</p>
+<p><img src="https://www.zhihu.com/equation?tex=%CE%B7%3D+%5Cepsilon+sign%28%E2%88%87_xJ%28%CE%B8%2Cx%2Cy%29%29" alt="[公式]"></p>
+<p>找到向最陡的方向寻找对抗样本。</p>
+<p>但这个方法需要知道模型的参数，或者说是梯度信息，即 $\theta$，然后在黑盒模型中，我们无法知道这个信息，只能通过输入和输出来进行估计。</p>
+<h2 id="梯度估计">梯度估计</h2>
+<p>白盒模型的对抗样本生成方法需要最大化目标函数（损失函数）$F(x)$，文本则采取<strong>NES（Natural Evolution Strategy）</strong>，最大化在当前搜索的分布下，损失函数的期望。这里面的$\theta$可以理解为在x附近采样的一些点。在黑盒模型下，求x处梯度的方法的思想基本上都是用x的邻接点的信息得到梯度的逼近(比如最简单的差分)。
+$$
+\mathbb{E}<em>{\pi(\theta|x)}[F(\theta)]=\int F(\theta)\pi(\theta|x)d\theta\<br>
+\nabla_x \mathbb{E}</em>{\pi(\theta|x)}[F(\theta)]=\nabla_x\int F(\theta)\pi(\theta|x)d\theta\<br>
+=\int F(\theta)\nabla_x\pi(\theta|x)d\theta\<br>
+=\int F(\theta)\frac{\pi(\theta|x)}{\pi(\theta|x)}\nabla_x\pi(\theta|x)d\theta\<br>
+=\int \pi(\theta|x)F(\theta)\nabla_x \log(\pi(\theta|x))d\theta\<br>
+=\mathbb{E}_{\pi(\theta|x)}[F(\theta)\nabla_x \log(\pi(\theta|x))]
+$$</p>
+<p>文本进行搜索的分布采取了random Gaussian noise
+$$
+\theta=x+\sigma \mathcal{N}(0,1)
+$$
+则
+$$
+\nabla \mathbb{E}[F(\theta)]\approx\frac{1}{\sigma n}\Sigma_{i=1}^n \epsilon_i F(\theta+\sigma \epsilon_i)
+$$</p>
+<p>在对$\epsilon$采样时，文本并不是直接进行高斯采样($\epsilon_i \sim \mathcal{N}(0,1),i\in{1,2&hellip;n}$)，而是采用了antithetic sampling（对偶抽样法），即令
+$$
+\epsilon_j=-\epsilon_{n-j+1} \forall i \in {1&hellip;\frac{n}{2}} \forall j \in {(\frac{n}{2}+1)&hellip;n}
+$$
+这样可以让NES获得更好的效果，且如此一来，可以得到损失的期望以$\epsilon_i$为基的表达式
+$$
+\nabla\mathbb{E}[F(x)] \approx \frac{1}{n\sigma}\Sigma_{i=1}^{n}F(x+\sigma\epsilon_i)\epsilon_i\<br>
+=\frac{1}{n/2}\Sigma_{i=1}^{n/2}\frac{F(x+\sigma\epsilon_i)-F(x-\sigma\epsilon_i)}{2\sigma}\epsilon_i\<br>
+\approx\frac{1}{n/2}\Sigma_{i=1}^{n/2}D_{\epsilon_i}(x)\epsilon_i\<br>
+=\frac{1}{n/2}\Sigma_{i=1}^{n/2}(\nabla F \cdot \epsilon_i)\epsilon_i
+$$
+然后文章通过[2]和[3]来证明上文提到的梯度估计有比价好的可靠性</p>
+<h2 id="生成对抗样本">生成对抗样本</h2>
+<p>$$
+\epsilon_t=\min \epsilon \text{ s.t. rank}(P(y_{adv}|\Pi_\epsilon(x_{t-1})))&lt;k\<br>
+x_t=\arg \max_x P(y_{adv}|\Pi_{\epsilon_{t-1}}(x))
+$$</p>
+<p>其中，$\Pi_\epsilon(x)$代表$x$到以$x_i$为中心，无穷范数下$\epsilon$为半径的球的投影</p>
+<h1 id="reference">Reference</h1>
+<p>[2] A. N. Gorban, I. Y. Tyukin, D. V. Prokhorov, and K. I. Sofeikov.  Approximation with random bases.  <em>Inf. Sci.</em>,364(C):129–145, Oct. 2016.</p>
+<p>[3] S. Dasgupta, D. Hsu, and N. Verma. A concentration theorem for projections.</p>
+<p>In <em>Conference on Uncertainty in Artificial-Intelligence</em>, 2006.</p>
+
         </div>
         
-        <div class="item">
-            <div class="grid-content">
-                <div class="bg-secondary-bg rounded overflow-hidden border hover:shadow-lg transition ease-in-out duration-200">
-  
-  
-  <div class="px-6 pt-6">
-    <div class="font-bold text-xl text-primary-text mb-2">
-      <a href="/posts/usb_error/" class="hover:text-eureka">USB故障</a>
+        
+        
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
     </div>
-    <div class="">我的电脑有三个USB插口，左边一个，右边两个 有一天，右边靠近屏幕的那个插口无法识别到我的无线鼠标了，我当时没太在意，毕竟还有两个可以用，然后大概是这学</div>
-  </div>
-  <div class="px-6 pb-2">
-    <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2021-01-23</span>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/usb_error/" class="block">USB故障</a>
+        
     </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>4 min read</span>
+</div>
+
+        
     </div>
-    
     
 
     
-</div>
-  </div>
-</div>
-            </div>
-        </div>
-        
-        <div class="item">
-            <div class="grid-content">
-                <div class="bg-secondary-bg rounded overflow-hidden border hover:shadow-lg transition ease-in-out duration-200">
-  
-  
-  <div class="px-6 pt-6">
-    <div class="font-bold text-xl text-primary-text mb-2">
-      <a href="/posts/first_blog/" class="hover:text-eureka">新的开始</a>
-    </div>
-    <div class="">欢迎来到肉饼粥的第一篇博客。了解我的人可能都会很意外，因为我从小到大都没有写博客或者记日记的习惯，就连QQ空间和朋友圈的文案也懒得画太多心思去构思。 我</div>
-  </div>
-  <div class="px-6 pb-2">
-    <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2021-01-22</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
-    </div>
     
-    
-
-    
-</div>
-  </div>
-</div>
-            </div>
-        </div>
-        
-    </div>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', ()=>{
-        enableMasonry()
+        hljs.initHighlightingOnLoad();
     })
 </script>
 
-        </div>
       </div>
     </div>
     
-    
-  
   </main>
   <footer class="pl-scrollbar">
     <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
